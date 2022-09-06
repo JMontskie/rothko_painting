@@ -16,7 +16,8 @@ Accent 2 - EFEFEF
     height: 500px;
     width: 500px;
     background-color: #0A1931;
-    padding: 1px;
+    /* padding: 1px; */
+    overflow: hidden;
 }
 
 .one {
