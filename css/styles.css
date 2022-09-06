@@ -26,3 +26,10 @@ Accent 2 - EFEFEF
     background-color: #185ADB;
     margin: 20px auto;
 }
+
+.two {
+    background-color: #FFC947;
+    width: 475px;
+    height: 200px;
+    margin: auto;;
+}
