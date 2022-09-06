@@ -5,18 +5,18 @@ Accent 1 - FFC947
 Accent 2 - EFEFEF
 */
 
-
-.canvas {
-    height: 500px;
-    width: 500px;
-    background-color: #0A1931;
-}
-
 .frame {
     border: 50px solid black;
     width: 500px;
     padding: 50px;
     margin: 20px auto;
+}
+
+.canvas {
+    height: 500px;
+    width: 500px;
+    background-color: #0A1931;
+    padding: 1px;
 }
 
 .one {
