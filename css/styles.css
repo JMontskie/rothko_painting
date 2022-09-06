@@ -33,3 +33,10 @@ Accent 2 - EFEFEF
     height: 200px;
     margin: auto;;
 }
+
+.three {
+    width: 91px;
+    height: 28%;
+    background-color: #EFEFEF;
+    margin: auto;
+}
