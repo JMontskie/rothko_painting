@@ -31,11 +31,11 @@ Accent 2 - EFEFEF
     background-color: #FFC947;
     width: 475px;
     height: 200px;
-    margin: auto;;
-}
+    margin: 0 auto 20px;
+}   
 
 .three {
-    width: 91px;
+    width: 91%;
     height: 28%;
     background-color: #EFEFEF;
     margin: auto;
