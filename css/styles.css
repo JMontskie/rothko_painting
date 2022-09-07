@@ -13,11 +13,12 @@ Accent 2 - EFEFEF
 }
 
 .canvas {
-    height: 500px;
+    height: 600px;
     width: 500px;
     background-color: #0A1931;
     /* padding: 1px; */
     overflow: hidden;
+    filter: blur(2px);
 }
 
 .one {
