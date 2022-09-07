@@ -28,6 +28,7 @@ Accent 2 - EFEFEF
     margin: 20px auto;
     filter: blur(1px);
     box-shadow: 3px 3px #185ADB;
+    border-radius: 9px;
 }
 
 .two {
@@ -37,6 +38,7 @@ Accent 2 - EFEFEF
     margin: 0 auto 20px;
     filter: blur(1px);
     box-shadow: 3px 3px #FFC947;
+    border-radius: 8px 10px;
 }   
 
 .three {
@@ -46,4 +48,5 @@ Accent 2 - EFEFEF
     margin: auto;
     filter: blur(2px);
     box-shadow: 5px 5px #EFEFEF;
+    border-radius: 30px 25px 60px 12px;
 }
