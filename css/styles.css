@@ -26,6 +26,7 @@ Accent 2 - EFEFEF
     height: 150px;
     background-color: #185ADB;
     margin: 20px auto;
+    filter: blur(1px);
 }
 
 .two {
@@ -33,6 +34,7 @@ Accent 2 - EFEFEF
     width: 475px;
     height: 200px;
     margin: 0 auto 20px;
+    filter: blur(1px);
 }   
 
 .three {
@@ -40,4 +42,5 @@ Accent 2 - EFEFEF
     height: 28%;
     background-color: #EFEFEF;
     margin: auto;
+    filter: blur(2px);
 }
