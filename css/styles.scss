@@ -5,10 +5,66 @@ Accent 1 - FFC947
 Accent 2 - EFEFEF
 */
 
+$base-color: #0A1931;
+$secondary-color: #185ADB;
+$tertiary-color: #FFC947;
+$quaternary-color: #EFEFEF;
 
-.canvas {
-    height: 500px;
+.frame {
+    border: 50px solid black;
     width: 500px;
-    background-color: #0A1931;
+    padding: 50px;
+    margin: 20px auto;
+
+    .canvas {
+        height: 500px;
+        width: 500px;
+        background-color: $base-color;
+        overflow: hidden;
+        filter: blur(2px);
+    
+        .one {
+            width: 425px;
+            height: 150px;
+            background-color: $secondary-color;
+            margin: 20px auto;
+            filter: blur(1px);
+            box-shadow: 3px 3px $secondary-color;
+            border-radius: 9px;
+            transform: rotate(0.6deg);
+        }
+        
+        .two {
+            background-color: $tertiary-color;
+            width: 475px;
+            height: 200px;
+            margin: 0 auto 20px;
+            filter: blur(1px);
+            box-shadow: 3px 3px $tertiary-color;
+            border-radius: 8px 10px;
+            transform: rotate(4.3deg);
+        }   
+        
+        .three {
+            width: 91%;
+            height: 28%;
+            background-color: $quaternary-colo;
+            margin: auto;
+            filter: blur(2px);
+            box-shadow: 5px 5px $quaternary-colo;
+            border-radius: 30px 25px 60px 12px;
+            transform: rotate(-0.02deg);
+        }
+        
+    }
+    
+}
+
+.foot {
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
 }
 
